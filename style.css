@@ -1,0 +1,99 @@
+
+body, h1, ul, li {
+    margin:0
+}
+body {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg {
+    z-index: -1;
+    height: 100vh;
+    position: fixed;
+    width: 100%; 
+}
+
+header {
+    padding:20px;
+    background-color:rgb(53,151,61);
+    border-bottom: 12px solid white;
+    
+}
+
+header h1 {
+    text-align:center;
+    color: white;
+    font-size: 2em;
+}
+
+nav li {
+    display: inline-block;
+    margin: 15px auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;   
+}
+
+main {
+    max-width: 100%;
+    margin: 35px auto;
+}
+
+.ftext{
+    max-width: 75%;
+    text-align:center;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px;
+    border: 10px solid rgb(53,151,61);
+    border-radius: 50px;
+}
+
+.ftext h1 {
+    font-size: 2em;
+}
+
+p {
+    line-height: 30px;
+    font-size: 1.2em;
+}
+
+p a {
+    text-decoration: none;
+}
+
+.mandl {
+    display: block;
+    margin:0 auto;
+}
+
+footer {
+    /* position: absolute; */
+    bottom: 0;
+    margin:20px auto;
+    text-align: center;
+}
+
+aside {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.buttons img:hover {
+    cursor: pointer;
+}
+
+.left {
+    margin-right: 50px;
+}
+
+.right {
+    margin-left:50px;
+}
